@@ -29,7 +29,7 @@ async function checkForUpdates() {
       await Updates.fetchUpdateAsync();
       Alert.alert(
         "Update Ready",
-        "A new version of SeatWise is available. Restart now to apply it.",
+        "A new version of CabinIQ is available. Restart now to apply it.",
         [
           { text: "Later", style: "cancel" },
           {
