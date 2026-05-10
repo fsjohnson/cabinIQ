@@ -22,7 +22,7 @@ import { Aircraft, searchAircraft } from "@/data/aircraft";
 type FilterType = "All" | "Boeing" | "Airbus" | "Embraer" | "Narrowbody" | "Widebody" | "Jumbo";
 const FILTERS: FilterType[] = ["All", "Boeing", "Airbus", "Embraer", "Narrowbody", "Widebody", "Jumbo"];
 
-const PRIVACY_URL = "https://github.com/fsjohnson/SolvePuzzle/wiki/Privacy-Policy";
+const PRIVACY_URL = "https://github.com/fsjohnson/cabinIQ/wiki/Privacy-Policy";
 const CONTACT_EMAIL = "hello@runway.team";
 
 export default function SearchScreen() {
