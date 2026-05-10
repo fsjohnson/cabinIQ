@@ -42,7 +42,7 @@ export default function SearchScreen() {
         <View style={styles.titleRow}>
           <View>
             <Text style={[styles.title, { color: colors.primary, fontFamily: "Inter_700Bold" }]}>
-              SeatWise
+              CabinIQ
             </Text>
             <Text style={[styles.subtitle, { color: colors.mutedForeground, fontFamily: "Inter_400Regular" }]}>
               Find your best seat, every flight
