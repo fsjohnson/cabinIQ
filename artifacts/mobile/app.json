@@ -22,9 +22,12 @@
       "policy": "sdkVersion"
     },
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": false,
+      "bundleIdentifier": "team.runway.cabiniq"
     },
-    "android": {},
+    "android": {
+      "package": "team.runway.cabiniq"
+    },
     "web": {
       "favicon": "./assets/images/icon.png"
     },
